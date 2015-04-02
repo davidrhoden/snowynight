@@ -3,19 +3,7 @@
 * @requires jQuery v1.9.0 or later 
 * is released under the MIT License <http://www.opensource.org/licenses/mit-license.php> 
 */
-$(document).ready(function(){
-$(".next").on("click", function(){
-		console.log(pictures[i]);
-		// pictures[i].ajax();
-		i++;
-});
 
-$(".back").on("click", function(){
-		console.log(pictures[i]);
-		// pictures[i].ajax();
-		i--;
-});
-});
 
 (function($){
 	var pictures = [ "snowynight1k.jpg", "snowynight2k.jpg", "snowynight3k.jpg", "snowynight4k.jpg", "snowynight5k.jpg", "snowynight6k.jpg", "snowynight7k.jpg", "snowynight8k.jpg", "snowynight9k.jpg", "snowynight10k.jpg", "snowynight11k.jpg", "snowynight12k.jpg", "snowynight13k.jpg", "snowynight14k.jpg", "snowynight15k.jpg", "snowynight16k.jpg", "snowynight17k.jpg", "snowynight18k.jpg", "snowynight19k.jpg", "snowynight20k.jpg" ];
