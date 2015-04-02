@@ -1,15 +1,20 @@
+div#modalBox {
+	font-family: Roboto, Arial, sans-serif;
+}
+
 .back {
 	background-color: #454545;
 	color: #ffffff;
 	font-size: 11px;
 	font-weight: 100;
 	position: absolute;
-	left: 0px;
+	left: -70px;
 	line-height: 11px;
 	height: 10px;
 	width: 30px;
 	padding: 20px;
 	top: 300px;
+	text-decoration: none;
 	text-transform: uppercase;
 	z-index: 10;
 	}
@@ -20,12 +25,13 @@
 	font-size: 11px;
 	font-weight: 100;
 	position: absolute;
-	right: 0px;
+	right: -70px;
 	line-height: 11px;
 	height: 10px;
 	width: 30px;
 	padding: 20px;
 	top: 300px;
+	text-decoration: none;
 	text-transform: uppercase;
 	z-index: 10;
 	}

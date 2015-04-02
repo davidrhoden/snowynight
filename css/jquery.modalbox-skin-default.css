@@ -14,7 +14,7 @@ div#modalBox.emphasis div#modalBoxBody div.modalBoxBodyContent {
 /* modalBoxCloseButton */
 div#modalBox div#modalBoxBody div#modalBoxCloseButton {
 	position:absolute; 
-	top:19px; 
+	top:0; 
 	left:0; 
 	text-align:right; 
 	width:100%;
@@ -38,7 +38,7 @@ div#modalBox div#modalBoxBody div#modalBoxCloseButton a.closeModalBox span {
 
 
 div#modalBox div#modalBoxBody {
-	padding:39px 0;
+	padding:33px 0;
 }
 div#modalBox div#modalBoxBody div.modalboxStyleContainerContent {
 	padding:0;
